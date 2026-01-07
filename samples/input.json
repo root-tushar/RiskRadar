@@ -1,0 +1,12 @@
+{
+  "severity": 80,
+  "confidence": 75,
+  "frequency": 90,
+  "context": {
+    "failed_logins": 6,
+    "is_privileged": true,
+    "user_id": "admin@company.com",
+    "source_ip": "192.168.1.100",
+    "event_count": 12
+  }
+}

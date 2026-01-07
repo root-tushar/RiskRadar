@@ -1,0 +1,18 @@
+weights:
+  severity: 0.35
+  confidence: 0.35
+  frequency: 0.30
+
+risk_levels:
+  low:
+    min: 0
+    max: 30
+  medium:
+    min: 31
+    max: 60
+  high:
+    min: 61
+    max: 80
+  critical:
+    min: 81
+    max: 100

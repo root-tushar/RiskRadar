@@ -1,0 +1,15 @@
+{
+  "risk_score": 82.0,
+  "risk_level": "CRITICAL",
+  "breakdown": {
+    "severity": 80,
+    "confidence": 75,
+    "frequency": 90
+  },
+  "triggered_rules": [
+    "Multiple failed login attempts",
+    "High-severity event detected",
+    "Privileged account activity detected",
+    "High event frequency detected"
+  ]
+}
