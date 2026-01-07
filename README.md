@@ -110,30 +110,6 @@ RiskRadar takes three core metrics—**severity**, **confidence**, and **frequen
 
 ---
 
-## 🚫 What RiskRadar is NOT
-
-> **Understanding what RiskRadar *isn't* is crucial to using it correctly.** ❌
-
-### ❌ Not a SIEM
-- **SIEM** collects, stores, and correlates logs across your entire infrastructure
-- **RiskRadar** scores individual, pre-processed security events (stateless)
-- **Use SIEM instead for:** Log collection, cross-system correlation, long-term forensics
-
-### ❌ Not an IDS/IPS
-- **IDS/IPS** monitors network traffic and detects malicious patterns in real-time
-- **RiskRadar** prioritizes *already-detected* security events by risk level
-- **Use IDS instead for:** Real-time network defense, automatic attack prevention
-
-### ❌ Not Machine Learning
-- **ML Models** learn patterns from historical data and adapt over time
-- **RiskRadar** uses deterministic formulas with transparent weights
-- **Why deterministic?** Easier to audit, explain to regulators, and customize without data scientists
-- **Use ML instead for:** Anomaly detection, pattern learning from massive datasets
-
-### ❌ Not a Vulnerability Scanner
-- **Scanners** identify security weaknesses and generate patch recommendations
-- **RiskRadar** scores *risk given severity, confidence, and frequency*
-- **Use scanners instead for:** Finding vulnerabilities, compliance assessment
 
 ### ❌ Not a Replacement for Human Review
 - **RiskRadar** is a *tool* to assist human analysts, not replace them
